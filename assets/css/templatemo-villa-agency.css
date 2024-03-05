@@ -980,18 +980,16 @@ Video Style
 */
 
 .video {
-  /* background-image: url(../images/video-bg.jpg); */
   background-color: #000;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center center;
-  padding: 150px 0px 150px 0px;
+  padding: -2px 0px;
   position: relative;
 }
 
 .video-content {
-  margin-top: -340px;
-  margin-right: 100px;
+  margin-top: 90px;
+  margin-left: -860px;
 }
 
 .video .section-heading h2 {
@@ -1007,7 +1005,7 @@ Video Style
 .video-content .video-frame img {
   border-radius: 25px;
   width: 1150px;
-  height: 311px;
+  height: 277px;
 }
 
 /* .video-content .video-frame a {
@@ -1086,6 +1084,7 @@ Video Style
   font-size: 3rem;
   color: var(--second-color);
   display: none;
+  padding: 90px 30px;
 }
 
 .swiper-button-prev {
@@ -1566,11 +1565,11 @@ footer.footer-no-gap {
   min-height: 50px;
 }
 
-/* footer {
+footer {
   margin-top: 150px;
   background-color: #1e1e1e;
   min-height: 50px;
-} */
+}
 
 footer p {
   text-align: center;
