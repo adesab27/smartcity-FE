@@ -1710,6 +1710,13 @@ Single Page Style
   margin-top: 40px;
 }
 
+.single-property .main-content h6 {
+  font-size: small;
+  font-weight: 500;
+  padding: 48px 30px;
+  float: right;
+}
+
 .single-property .accordion {
   margin-top: 60px;
   margin-left: 0px;
