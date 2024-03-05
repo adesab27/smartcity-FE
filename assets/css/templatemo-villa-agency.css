@@ -433,7 +433,7 @@ Header Style
 
 .header-area .main-nav .logo h1 {
   line-height: 100px;
-  font-size: 28px;
+  font-size: 18px;
   text-transform: uppercase;
   color: #1e1e1e;
   font-weight: 700;
@@ -1381,12 +1381,19 @@ Properties Style
 }
 
 .properties .item h4 {
-  font-size: 19px;
-  margin: 25px 0px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .properties .item h4 a {
   color: #1e1e1e;
+}
+
+.properties .item h6 a{
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
 }
 
 .properties .item ul li {
@@ -1407,22 +1414,13 @@ Properties Style
   padding-bottom: 30px;
 }
 
-.properties .item h6 {
-  font-size: 20px;
-  color: #f35525;
-  margin-top: 6px;
-  display: inline-block;
-  float: right;
-  margin-top: 30px;
-}
-
 .properties .item .main-button {
   text-align: center;
 }
 
 
 /* 
----------------------------------------------
+--------------------------------------------
 Contact Style
 --------------------------------------------- 
 */
@@ -1603,16 +1601,33 @@ Page Header Style
 }
 
 .page-heading span a {
-  color: #1e1e1e;
+  color: #fff;
+}
+
+.page-heading h1 {
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+}
+
+.page-heading h2{
+  font-size: 50px;
+  font-weight: 450;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
 }
 
 .page-heading h3 {
-  font-size: 48px;
-  font-weight: 900;
+  font-size: 20px;
+  font-weight: 500;
   text-transform: uppercase;
   color: #fff;
-  margin-top: 35px;
+  margin-top: 10px;
   margin-bottom: 35px;
+  text-align: left;
 }
 
 
@@ -1625,7 +1640,7 @@ Properties Style
 .properties ul.properties-filter {
   list-style: none;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 
 .properties ul.properties-filter li {
@@ -1636,13 +1651,13 @@ Properties Style
 .properties ul.properties-filter li a {
   display: inline-block;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
   text-transform: capitalize;
   font-weight: 500;
   color: #fff;
   background-color: #1e1e1e;
   padding: 12px 25px;
-  border-radius: 5px;
+  border-radius: 30px;
   transition: all .3s;
 }
 
