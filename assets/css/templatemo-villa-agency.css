@@ -1010,22 +1010,6 @@ Video Style
   height: 311px;
 }
 
-/* .video-content .video-frame a {
-  position: absolute;
-  left: 70%;
-  top: 53%;
-  transform: translate(-26px, -26px);
-  width: 52px;
-  height: 52px;
-  background-color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  line-height: 52px;
-  color: #f35525;
-  outline: 15px solid rgba(254, 85, 37, 0.5);
-  font-size: 18px;
-} */
 
 /* Slider */
 
@@ -1037,6 +1021,7 @@ Video Style
   margin-inline: 1.75rem;
   border-radius: 1.25rem;
   overflow: hidden;
+  margin-top: 60px;
 }
 
 .card__article {
@@ -1084,7 +1069,7 @@ Video Style
 .swiper-button-next {
   width: initial;
   height: initial;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--second-color);
   display: none;
 }
