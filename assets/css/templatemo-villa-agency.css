@@ -350,17 +350,19 @@ Header Style
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
+  opacity: 0.6;
 }
 
 .header-area {
   position: relative;
   background-color: #fff;
   height: 100px;
-  z-index: 100;
+  z-index: 50;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
+
 }
 
 .header-area .main-nav {
