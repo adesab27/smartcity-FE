@@ -1640,7 +1640,8 @@ Properties Style
 .properties ul.properties-filter {
   list-style: none;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: -80px;
 }
 
 .properties ul.properties-filter li {
