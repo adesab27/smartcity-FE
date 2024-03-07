@@ -769,8 +769,9 @@ Banner Style
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 220px 20% 320px 20%;
+  padding: 50px 20% 90px 20%;
   margin-top: 0px;
+  margin-bottom: 80px;
 }
 
 .main-banner .item-1 {
@@ -778,11 +779,11 @@ Banner Style
 }
 
 .main-banner .item-2 {
-  background-image: url(../images/banner-02.jpg);
+  background-image: url(../images/banner-01.jpg);
 }
 
 .main-banner .item-3 {
-  background-image: url(../images/banner-03.jpg);
+  background-image: url(../images/banner-01.jpg);
 }
 
 .main-banner .item span.category {
@@ -1030,7 +1031,7 @@ Video Style
 
 .card__article {
   width: 150px; /* Remove after adding swiper js */
-  border-radius: 1.25rem;
+  border-radius: 1.75rem;
   overflow: hidden;
 }
 
@@ -1044,11 +1045,11 @@ Video Style
 }
 
 .card__data img {
-  width: 80px;
+  width: 30px;
 }
 
 .card__name {
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   color: #fff;
   margin-bottom: 0.75rem;
 }
@@ -1056,10 +1057,10 @@ Video Style
 .card__button {
   display: inline-block;
   background-color: var(--first-color);
-  padding: 0.75rem 1.5rem;
+  padding: 0.35rem 1.5rem;
   border-radius: 0.25rem;
   color: var(--dark-color);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Swiper class */
@@ -1093,6 +1094,7 @@ Video Style
 .swiper-pagination-bullet-active {
   background-color: var(--second-color);
 }
+
 /* For small devices */
 @media screen and (max-width: 320px) {
   .card__data {
@@ -1159,13 +1161,13 @@ Video Style
 }
 
 .smart_link h1 {
-  font-size: 20px; /* Ukuran font h1 yang lebih kecil */
+  font-size: 20px; 
   margin-bottom: 4px;
   color: red;
 }
 
 .smart_link:hover h1 {
-  color: white; /* Mengubah warna teks h1 menjadi putih saat hover */
+  color: white; 
 }
 
 .smart_link::after {
