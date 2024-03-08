@@ -691,6 +691,14 @@ Banner Style
   background-image: url(../images/banner-01.jpg);
 }
 
+.main-banner .item-4 {
+  background-image: url(../images/banner-04.jpg);
+}
+
+.main-banner .item-51 {
+  background-image: url(../images/banner-05.jpg);
+}
+
 .main-banner .item span.category {
   background-color: #fff;
   color: #1e1e1e;
@@ -713,6 +721,14 @@ Banner Style
   text-transform: uppercase;
   color: #fff;
   line-height: 72px;
+  width: 50%;
+  margin-bottom: 0px;
+}
+.main-banner .item h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 44px;
   width: 50%;
   margin-bottom: 0px;
 }
@@ -2141,4 +2157,231 @@ Dimensi-Utama Style
   width: 5%;
   height: auto; 
   z-index: 1;
+}
+
+
+.tm-home-img-container {
+  background-image: url('../images/banner-04.jpg');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 670px;
+}
+
+.tm-section {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1390px;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1390px) {
+  .container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.header-text-mid {
+  margin-top: 12px;
+  font: poppins bold;
+  font-size: 20pt;
+  text-align: center;
+}
+
+.tm-content-box {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.tm-margin-b-21 {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.tm-content-box {
+  margin-bottom: 50px;
+}
+
+.tm-margin-b-20 {
+  margin-bottom: 20px;
+}
+
+.tm-gold-text {
+  color: #f95b00;
+}
+
+.tm-subtitle {
+  padding-top: 12px;
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 80px;
+  text-align: center;
+}
+
+.tm-btn-x {
+  color: white;
+  background-color: #ff9f68;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+.tm-btn-x:hover,
+.tm-btn-x:focus {
+  background-color: #000000;
+  color: white;
+  outline: none;
+}
+
+/*
+Pagination
+*/
+.pagination-number {
+
+  box-sizing: border-box;
+  font-family: Poppins Medium;
+  font-size: 16px;
+  font-weight: 400;
+  user-select: none;
+  transition: all 200ms ease;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--bg-page);
+  color: var(--text-color);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+  height: 0;
+}
+
+.pagination\:container {
+  display: flex;
+  align-items: center;
+}
+
+.arrow\:text {
+  display: block;
+  vertical-align: middle;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+.pagination\:number {
+  --size: 32px;
+  --margin: 6px;
+  margin: 0 var(--margin);
+  border-radius: 6px;
+  background: #ffffff;
+  max-width: auto;
+  min-width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0 6px;
+}
+
+.pagination\:active {
+  background: lighten(#db9797, 3%);
+  position: relative;
+}
+.header-text4 {
+  padding-top: 50pt;
+  text-align: center;
+  color: orange; /* Warna teks orange */
+}
+
+.header-text4:hover {
+  color: red; /* Ubah warna teks menjadi merah saat kursor terlewat */
+  cursor: pointer; /* Ubah kursor menjadi pointer saat terlewat */
+}
+
+tbody td,
+tbody th {
+  font-size: 12pt;
+}
+
+.imgprodukhukum {
+  width: 20px;
+  height: 20px;
+}
+
+.row.align-items-center.choose-c {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  inline-size: auto;
+}
+
+.cardprodukhukum {
+  width: 90px;
+  height: 90px;
+  margin: 12px;
+}
+
+.produkhukum-table_wrapper {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.produkhukum-table {
+  width: 50%;
+}
+
+/* Responsif */
+@media screen and (max-width: 768px) {
+  .row.align-items-center.choose-c {
+    justify-content: space-around;
+  }
+
+  .cardprodukhukum {
+    width: 150px;
+    height: 150px;
+  }
+}
+/* Styling untuk top container */
+.top {
+  margin-bottom: 20px; 
+  padding-left: 1200px;
+}
+
+/* Styling untuk label */
+.top label {
+  font-weight: bold; /* Teks tebal */
+  margin-right: 10px; /* Jarak kanan */
+}
+
+/* Styling untuk input search */
+.top input[type="search"] {
+  padding: 5px 10px; /* Padding */
+  border: 1px solid #ccc; /* Garis tepi */
+  border-radius: 3px; /* Sudut melengkung */
+  transition: border-color 0.3s; /* Transisi perubahan warna garis tepi */
+}
+
+.top input[type="search"]:focus {
+  outline: none; /* Menghapus outline saat focus */
+  border-color: #007bff; /* Warna garis tepi saat focus */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2); /* Efek shadow saat focus */
 }
