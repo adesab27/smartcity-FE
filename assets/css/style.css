@@ -840,7 +840,7 @@ section.featured-items {
 
 .featured-items .item .thumb .hover-effect .content h4 {
   font-size: 20px;
-  color: #00bdfe;
+  color: red;
   margin-bottom: 22px;
 }
 
@@ -872,6 +872,23 @@ section.featured-items {
   font-weight: 500;
 }
 
+/* Styling untuk tombol */
+.featured-items .item .thumb .hover-effect .content button {
+  background-color: rgb(226, 158, 158); /* Warna latar belakang */
+  color: white; /* Warna teks */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Menghilangkan border */
+  border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+  cursor: pointer; /* Mengubah kursor menjadi pointer saat diarahkan ke tombol */
+  transition: background-color 0.3s; /* Efek transisi saat mouse hover */
+}
+
+/* Efek hover */
+.featured-items .item .thumb .hover-effect .content button:hover {
+  background-color: red; /* Warna latar belakang saat dihover */
+}
+
+
 .featured-items .owl-nav {
   position: absolute;
   width: 100%;
@@ -897,7 +914,7 @@ section.featured-items {
   font-size: 24px;
   display: inline-block;
   color: #fff;
-  background-color: #00bdfe;
+  background-color: red;
   border-radius: 50%;
   opacity: 0.75;
   transition: all .3s;
@@ -951,9 +968,16 @@ section.popular-categories .main-button {
 }
 
 .popular-item h4 {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 5px;
+  margin-bottom: 7px;
   font-weight: 700;
+}
+
+.popular-item h5 {
+  font-size: 13px;
+  margin-top: 5px;
+  font-weight: 500;
   margin-bottom: 12px;
 }
 
@@ -1152,7 +1176,115 @@ section.closed-contests {
 
 /* galeri */
 
+.galeri-main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
 
+.galeri-main h1{
+  position: relative;
+  height: auto;
+  width: 550px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 5% 0 2% 0;
+  text-align: center;
+  font-size: 2.8em;
+  font-weight: 650;
+  letter-spacing: 1.5px;
+  color: #017bf5;
+  border-left: 5px solid #017bf5;
+  border-right: 5px solid #017bf5;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.galeri-main .gallery{
+  position: relative;
+  height: auto;
+  width: 90%;
+  margin: auto;
+  padding: 45px 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2vh;
+  grid-auto-flow: dense;
+}
+
+.galeri-main .gallery .galeri-img{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.9);
+  border-radius: 2px;
+}
+
+.galeri-main .gallery .galeri-img:first-child{
+  grid-column-start: span 2;
+  grid-row-start: span 2;
+}
+
+.galeri-main .gallery .galeri-img:nth-child(2n+3){
+  grid-row-start: span 2;
+}
+
+.galeri-main .gallery .galeri-img:nth-child(4n+5){
+  grid-column-start: span 2;
+  grid-row-start: span 2;
+}
+
+.galeri-main .gallery .galeri-img:nth-child(6n+7){
+  grid-row-start: span 1;
+}
+
+.galeri-main .gallery .galeri-img:nth-child(8n+9){
+  grid-column-start: span 1;
+  grid-row-start: span 1;
+}
+
+.galeri-main .gallery .galeri-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.5) grayscale(100);
+  transition: 0.3 ease-in-out;
+}
+
+.galeri-main .gallery .galeri-img:hover img{
+  filter: brightness(1) grayscale(0);
+}
+
+@media only screen and (max-width: 768px){
+  .galeri-main h1{
+    font-size: 1.8em;
+    width: 400px;
+  }
+  .galeri-main .gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  .galeri-main h1{
+    font-size: 1.2em;
+    width: 300px;
+  }
+  .galeri-main .gallery{
+    display: block;
+  }
+  .galeri-main .gallery .galeri-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 2% 0;
+  }
+  .galeri-main .gallery .galeri-img img{
+    display: block;
+    filter: brightness(1) grayscale(0);
+  }
+}
 
 /* 
 ---------------------------------------------
@@ -1895,6 +2027,8 @@ Single Page Style
 }
 
 /* solo-event start */
+
+
 
 /* solo event end */
 
